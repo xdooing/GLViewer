@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "qmainwindow": "cpp",
+        "qopenglwidget": "cpp",
+        "qopenglfunctions_4_5_core": "cpp"
+    }
+}
