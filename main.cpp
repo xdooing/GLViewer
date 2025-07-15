@@ -1,12 +1,10 @@
 #include <QApplication>
 #include <QMainWindow>
-#include <QOpenGLWidget>
-#include <QOpenGLFunctions_4_5_Core>
-
+#include "glwindow.h"
 
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
-    QMainWindow win;
+    GLWindow win;
     win.show();
     return app.exec();
 }
